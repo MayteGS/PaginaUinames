@@ -1,0 +1,26 @@
+<nav id="nav" class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="navbar-nav">
+
+            <button #random value="random" (click)="GetGender(random.value)" class="nav-item nav-link active bg-white" href="#"><i class="fas fa-random"></i></button>
+            <button #male value="male" (click)="GetGender(male.value)" class="nav-item nav-link active bg-white" href="#"><i class="fas fa-mars"></i></button>
+            <button #female value="female" (click)="GetGender(female.value)" class="nav-item nav-link active bg-white" href="#"><i class="fas fa-venus"></i></button>
+            <span>GENDER</span>
+
+            <a class="nav-item nav-link active bg-white" href="#"> <i class="fas fa-globe"></i></a>
+            <span>REGION</span>
+
+            <a class="nav-item nav-link active bg-white" href="#"><i class="fas fa-archive"></i></a>
+            <span>BULK</span>
+
+            <div id="info">
+                <a class="nav-item nav-link active bg-white" href="#"><i class="fas fa-bars"></i></a>
+                <span>MORE</span>
+            </div>
+        </div>
+    </div>
+</nav>

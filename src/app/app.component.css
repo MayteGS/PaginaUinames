@@ -1,0 +1,61 @@
+#heart {
+    color: red;
+}
+
+#share {
+    color: #f2f2f2;
+}
+
+#ranking {
+    width: 20vw;
+    height: 10vh;
+    top: 50vh;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.twitter {
+    width: 5vw;
+    height: 5vh;
+    left: 5%;
+    top: 10%;
+    text-align: center;
+    position: absolute;
+    background: rgb(12, 122, 191);
+}
+
+#twitter {
+    color: #f2f2f2;
+}
+
+.facebook {
+    width: 5vw;
+    height: 5vh;
+    left: 50%;
+    top: 10%;
+    text-align: center;
+    position: absolute;
+    background: rgb(54, 88, 153);
+}
+
+#facebook {
+    top: 10%;
+    color: #f2f2f2;
+}
+
+.github {
+    width: 5vw;
+    height: 5vh;
+    left: 75%;
+    top: 10%;
+    text-align: center;
+    position: absolute;
+    background: rgb(250, 250, 250);
+}
+
+#github {
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    color: #000;
+}

@@ -1,0 +1,18 @@
+#nav {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background: rgb(143, 192, 108);
+}
+
+.nav-item {
+    color: black;
+    border-radius: 50%;
+    margin: 5px;
+    opacity: 1;
+}
+
+#info {
+    position: absolute;
+    right: 5%;
+}
